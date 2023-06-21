@@ -1,0 +1,109 @@
+.container {
+  
+  max-width: 830px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+
+.wrapper {
+  background-color: blanchedalmond;
+
+  border: 1px solid #000;
+  margin-top: 30px;
+  transition: all .5s;
+  border-radius: 8px;
+}
+
+.wrapper:hover {
+  transform: translateY(30px);
+}
+.title {
+  margin-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+  font-size: 56px;
+  margin-bottom: 60px;
+  border-bottom: 1px solid #000;
+  font-family: cursive;
+}
+.list {
+
+  
+}
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 60px;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 26px;
+  font-family: cursive;
+  line-height: 36px;
+}
+
+.text {
+  margin-left: 50px;
+  width: 100%;
+  padding: 10px 0;
+  border: 1px solid #000;
+  border-radius: 4px;
+  text-align: center;
+  background-color:rgb(255, 255, 255) ;
+  font-size: 24px;
+  font-family: cursive;
+
+}
+.form {
+  display: flex;
+  margin-bottom: 30px;
+
+}
+.button {
+  width: 100px;
+  margin-left: 50px;
+  padding: 15px 0;
+  border: 1px solid #000;
+  border-radius: 8px;
+  margin-right: 50px;
+  transition: all .5s;
+}
+.button:hover {
+  background-color: rgb(155, 244, 53);
+}
+
+
+.btn {
+  margin-left: 50px;
+  background-color: blanchedalmond;
+
+}
+
+.btn:hover {
+}
+.cherk {
+  text-decoration: line-through;
+}
+
+.btn-1 {
+  margin-right: 50px;
+  transition: all .5s;
+  border-radius: 50%;
+}
+.btn-1:hover {
+}
+
+.text-1 {
+  text-wrap:;
+  width: 500px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #000;
+}
+
+img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
